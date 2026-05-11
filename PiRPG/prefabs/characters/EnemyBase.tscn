@@ -1,14 +1,14 @@
-[gd_scene load_steps=44 format=3 uid="uid://bmcermplqr7pn"]
+[gd_scene format=3 uid="uid://bmcermplqr7pn"]
 
 [ext_resource type="Script" uid="uid://cfng4jur507cq" path="res://scripts/enemies/EnemyBase.gd" id="1_7ggx4"]
-[ext_resource type="Texture2D" uid="uid://d3uh28olree2w" path="res://characters/mobs/Aligator/Mob_Alligator_idle_front.png" id="2_vuiia"]
-[ext_resource type="Texture2D" uid="uid://c6ed4s5rlaroa" path="res://characters/mobs/Aligator/Mob_Alligator_idle_left.png" id="3_xsee6"]
-[ext_resource type="Texture2D" uid="uid://bsphnh0ulgt55" path="res://characters/mobs/Aligator/Mob_Alligator_idle_right.png" id="4_7vlsn"]
-[ext_resource type="Texture2D" uid="uid://bqyhwqewnyb1i" path="res://characters/mobs/Aligator/Mob_Alligator_idle_back.png" id="5_3xajs"]
-[ext_resource type="Texture2D" uid="uid://dycyusw2xs2dy" path="res://characters/mobs/Aligator/Mob_Alligator_walking_front.png" id="6_ycvqt"]
-[ext_resource type="Texture2D" uid="uid://cduk74rpilfhb" path="res://characters/mobs/Aligator/Mob_Alligator_walking_left (1).png" id="7_obltt"]
-[ext_resource type="Texture2D" uid="uid://ckohsgevy2050" path="res://characters/mobs/Aligator/Mob_Alligator_walking_right (1).png" id="8_dufha"]
-[ext_resource type="Texture2D" uid="uid://45ypqhshb5r3" path="res://characters/mobs/Aligator/Mob_Alligator_walking_back.png" id="9_0om13"]
+[ext_resource type="Texture2D" uid="uid://d3uh28olree2w" path="res://assets/characters/mobs/Aligator/Mob_Alligator_idle_front.png" id="2_vuiia"]
+[ext_resource type="Texture2D" uid="uid://c6ed4s5rlaroa" path="res://assets/characters/mobs/Aligator/Mob_Alligator_idle_left.png" id="3_xsee6"]
+[ext_resource type="Texture2D" uid="uid://bsphnh0ulgt55" path="res://assets/characters/mobs/Aligator/Mob_Alligator_idle_right.png" id="4_7vlsn"]
+[ext_resource type="Texture2D" uid="uid://bqyhwqewnyb1i" path="res://assets/characters/mobs/Aligator/Mob_Alligator_idle_back.png" id="5_3xajs"]
+[ext_resource type="Texture2D" uid="uid://dycyusw2xs2dy" path="res://assets/characters/mobs/Aligator/Mob_Alligator_walking_front.png" id="6_ycvqt"]
+[ext_resource type="Texture2D" uid="uid://cduk74rpilfhb" path="res://assets/characters/mobs/Aligator/Mob_Alligator_walking_left (1).png" id="7_obltt"]
+[ext_resource type="Texture2D" uid="uid://ckohsgevy2050" path="res://assets/characters/mobs/Aligator/Mob_Alligator_walking_right (1).png" id="8_dufha"]
+[ext_resource type="Texture2D" uid="uid://45ypqhshb5r3" path="res://assets/characters/mobs/Aligator/Mob_Alligator_walking_back.png" id="9_0om13"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5f4iu"]
 atlas = ExtResource("2_vuiia")

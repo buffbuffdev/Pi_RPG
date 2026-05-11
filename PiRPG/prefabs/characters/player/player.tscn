@@ -1,7 +1,7 @@
-[gd_scene load_steps=25 format=3 uid="uid://bxbbu2a4pgk10"]
+[gd_scene format=3 uid="uid://bxbbu2a4pgk10"]
 
 [ext_resource type="Script" uid="uid://cpioanr1iufdi" path="res://scripts/player/player_grid_move.gd" id="1_nc631"]
-[ext_resource type="Texture2D" uid="uid://doccy26qfqi12" path="res://characters/player/Player.png" id="2_cwolq"]
+[ext_resource type="Texture2D" uid="uid://doccy26qfqi12" path="res://assets/characters/player/Player.png" id="2_cwolq"]
 [ext_resource type="Script" uid="uid://clybdeg7tbvx0" path="res://scripts/combat/combat_manager.gd" id="3_nc631"]
 [ext_resource type="PackedScene" uid="uid://dv0ebnbmq4rjo" path="res://prefabs/characters/player/enemy_scanner.tscn" id="4_top1e"]
 

@@ -1,7 +1,7 @@
-[gd_scene load_steps=26 format=3 uid="uid://cumdq31cvcvw0"]
+[gd_scene format=3 uid="uid://cumdq31cvcvw0"]
 
 [ext_resource type="Script" uid="uid://c4le7dvj2b3it" path="res://scripts/player/player_free_move.gd" id="1_jkyqt"]
-[ext_resource type="Texture2D" uid="uid://doccy26qfqi12" path="res://characters/player/Player.png" id="2_3eka1"]
+[ext_resource type="Texture2D" uid="uid://doccy26qfqi12" path="res://assets/characters/player/Player.png" id="2_3eka1"]
 [ext_resource type="Script" uid="uid://clybdeg7tbvx0" path="res://scripts/combat/combat_manager.gd" id="3_w7lf5"]
 [ext_resource type="PackedScene" uid="uid://dv0ebnbmq4rjo" path="res://prefabs/characters/player/enemy_scanner.tscn" id="4_3eka1"]
 [ext_resource type="PackedScene" uid="uid://b04pvkwsly5ob" path="res://prefabs/components/health_component.tscn" id="5_w7lf5"]
@@ -170,36 +170,36 @@ radius = 7.5
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_top1e"]
 size = Vector2(16, 16)
 
-[node name="PlayerFM" type="CharacterBody2D" groups=["player"]]
+[node name="PlayerFM" type="CharacterBody2D" unique_id=648682574 groups=["player"]]
 collision_layer = 2
 collision_mask = 5
 script = ExtResource("1_jkyqt")
 
-[node name="Icon" type="Sprite2D" parent="."]
+[node name="Icon" type="Sprite2D" parent="." unique_id=1883027174]
 visible = false
 position = Vector2(4.76837e-07, -15)
 scale = Vector2(0.05, 0.05)
 texture = SubResource("CompressedTexture2D_rxibo")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1408892380]
 z_index = 2
 sprite_frames = SubResource("SpriteFrames_boppf")
 animation = &"walk_down"
 centered = false
 offset = Vector2(-8, -8)
 
-[node name="coll" type="CollisionShape2D" parent="."]
+[node name="coll" type="CollisionShape2D" parent="." unique_id=1982566770]
 shape = SubResource("CircleShape2D_nc631")
 
-[node name="coll2" type="CollisionShape2D" parent="."]
+[node name="coll2" type="CollisionShape2D" parent="." unique_id=63204057]
 shape = SubResource("RectangleShape2D_top1e")
 disabled = true
 
-[node name="CombatManager" type="Node2D" parent="."]
+[node name="CombatManager" type="Node2D" parent="." unique_id=1094342321]
 script = ExtResource("3_w7lf5")
 metadata/_custom_type_script = "uid://clybdeg7tbvx0"
 
-[node name="EnemyScanner" parent="CombatManager" instance=ExtResource("4_3eka1")]
+[node name="EnemyScanner" parent="CombatManager" unique_id=1675457022 instance=ExtResource("4_3eka1")]
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_w7lf5")]
+[node name="HealthComponent" parent="." unique_id=1651681148 instance=ExtResource("5_w7lf5")]
 health_max = 500.0

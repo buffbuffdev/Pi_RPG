@@ -1,10 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://dqkkmrcxp6ht7"]
+[gd_scene format=3 uid="uid://dqkkmrcxp6ht7"]
 
-[ext_resource type="Script" uid="uid://ciisa17lt0fa8" path="res://scripts/enemies/snail.gd" id="1_5pkw2"]
-[ext_resource type="Texture2D" uid="uid://kt53reg0yxpd" path="res://characters/mobs/Snail/snail_Animation 1_0.png" id="1_67ohm"]
-[ext_resource type="Texture2D" uid="uid://s4ipecos3wh4" path="res://characters/mobs/Snail/snail_Animation 1_1.png" id="2_5pkw2"]
-[ext_resource type="Texture2D" uid="uid://dp6fcrfsbyd3g" path="res://characters/mobs/Snail/snail_Animation 1_2.png" id="3_hvqex"]
-[ext_resource type="Texture2D" uid="uid://cy25prgxnpqpu" path="res://characters/mobs/Snail/snail_Animation 1_3.png" id="4_vl1sw"]
+[ext_resource type="Script" uid="uid://ciisa17lt0fa8" path="res://scripts/enemies/_old/snail.gd" id="1_5pkw2"]
+[ext_resource type="Texture2D" uid="uid://kt53reg0yxpd" path="res://assets/characters/mobs/Snail/snail_Animation 1_0.png" id="1_67ohm"]
+[ext_resource type="Texture2D" uid="uid://s4ipecos3wh4" path="res://assets/characters/mobs/Snail/snail_Animation 1_1.png" id="2_5pkw2"]
+[ext_resource type="Texture2D" uid="uid://dp6fcrfsbyd3g" path="res://assets/characters/mobs/Snail/snail_Animation 1_2.png" id="3_hvqex"]
+[ext_resource type="Texture2D" uid="uid://cy25prgxnpqpu" path="res://assets/characters/mobs/Snail/snail_Animation 1_3.png" id="4_vl1sw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m2k3a"]
 size = Vector2(15, 10)

@@ -39,9 +39,9 @@ func _ready() -> void:
 	_create_stats()
 	#print(parent)
 
-func _input(_event: InputEvent) -> void:#(_delta: float) -> void:
+func _unhandled_input(event: InputEvent) -> void:
 	if controller_type == parent_type.PLAYER:
-		if Input.is_action_just_pressed("shoot"):
+		if event.is_action_pressed("shoot"):
 			#var _parent = get_parent() as Player
 			#shoot_fireball(_parent.picked_direction)
 			var scanner = control_data["enemy_scan"] as EnemyScanner

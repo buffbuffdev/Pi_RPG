@@ -1,6 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://cvox7fjn4fehm"]
+[gd_scene format=3 uid="uid://cvox7fjn4fehm"]
 
-[ext_resource type="Texture2D" uid="uid://bisi2dgsgf7lt" path="res://sprites/effects/ko_effect.png" id="1_166xe"]
+[ext_resource type="Texture2D" uid="uid://bisi2dgsgf7lt" path="res://assets/sprites/effects/ko_effect.png" id="1_166xe"]
 [ext_resource type="Script" uid="uid://cgketpy6nlpau" path="res://scripts/postfx/dead_sprite.gd" id="2_iq5x8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xsee6"]

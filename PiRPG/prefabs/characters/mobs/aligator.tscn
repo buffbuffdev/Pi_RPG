@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://bna0h3rvgxqur"]
+[gd_scene format=3 uid="uid://bna0h3rvgxqur"]
 
 [ext_resource type="Script" uid="uid://cfng4jur507cq" path="res://scripts/enemies/EnemyBase.gd" id="1_a7egk"]
-[ext_resource type="SpriteFrames" uid="uid://b6fp05v6qy8us" path="res://resources/sprite_frames/aligator.tres" id="2_ufl0x"]
+[ext_resource type="SpriteFrames" uid="uid://b6fp05v6qy8us" path="res://resources/sprite_frames/mobs/aligator.tres" id="2_ufl0x"]
 [ext_resource type="PackedScene" uid="uid://b04pvkwsly5ob" path="res://prefabs/components/health_component.tscn" id="3_ddqvn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d0s11"]

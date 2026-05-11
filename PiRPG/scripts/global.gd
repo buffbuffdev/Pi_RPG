@@ -1,6 +1,6 @@
 extends Node
 
-@onready var debug_hud = preload("res://scenes/dev/hud.tscn")
+@onready var debug_hud = preload("res://scenes/dev/debug_hud.tscn")
 @onready var game_trash = preload("res://prefabs/components/trash.tscn")
 
 ## Global.gd autoload

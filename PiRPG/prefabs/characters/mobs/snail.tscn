@@ -1,7 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://b0lu3618hxdxe"]
+[gd_scene format=3 uid="uid://b0lu3618hxdxe"]
 
 [ext_resource type="Script" uid="uid://cfng4jur507cq" path="res://scripts/enemies/EnemyBase.gd" id="1_r3jij"]
-[ext_resource type="SpriteFrames" uid="uid://1wo6kqdwlm0r" path="res://resources/sprite_frames/snail.tres" id="2_l4jxs"]
+[ext_resource type="SpriteFrames" uid="uid://1wo6kqdwlm0r" path="res://resources/sprite_frames/mobs/snail.tres" id="2_l4jxs"]
 [ext_resource type="PackedScene" uid="uid://b04pvkwsly5ob" path="res://prefabs/components/health_component.tscn" id="3_e4a7u"]
 [ext_resource type="Script" uid="uid://clybdeg7tbvx0" path="res://scripts/combat/combat_manager.gd" id="4_lnra2"]
 [ext_resource type="PackedScene" uid="uid://wsbyn1t8vqtu" path="res://prefabs/characters/player_scanner.tscn" id="5_lnx1g"]

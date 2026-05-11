@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://dwgc445jf2plj"]
+
+[ext_resource type="Script" uid="uid://dyoyi7o103pyf" path="res://components/HUD/dialogue_box.gd" id="1_spar7"]
+[ext_resource type="FontFile" uid="uid://ctcxxfvi67pro" path="res://assets/fonts/Commodore Angled v1.2.ttf" id="2_rkud8"]
+
+[node name="DialogueBox" type="Control" unique_id=1739530945]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_spar7")
+
+[node name="Panel" type="Panel" parent="." unique_id=342213244]
+clip_contents = true
+custom_minimum_size = Vector2(480, 240)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -162.0
+offset_right = 240.0
+offset_bottom = 120.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel" unique_id=1951699684]
+custom_minimum_size = Vector2(400, 200)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_top = 8.0
+offset_right = 200.0
+offset_bottom = 230.0
+grow_horizontal = 2
+theme_override_fonts/normal_font = ExtResource("2_rkud8")
+theme_override_font_sizes/normal_font_size = 10
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit justo in laoreet suscipit. Donec venenatis ligula consequat libero vehicula, id consectetur tortor ornare. Proin aliquam nisi non urna elementum, a tempus turpis tincidunt. Donec ex ipsum, pharetra id malesuada sed, condimentum non lorem. Phasellus vitae mollis dui, vitae vestibulum felis. Pellentesque rutrum bibendum lectus, nec interdum urna aliquam sit amet. Sed at erat convallis, pellentesque ante ac, pulvinar dolor. Morbi rutrum risus id justo ultricies mollis. Etiam egestas lorem sit amet vestibulum sodales. Morbi luctus ut diam vitae sagittis. Morbi molestie enim eu fermentum venenatis. Nullam ex neque, venenatis nec nibh vel, hendrerit cursus est. Sed nec massa suscipit, euismod purus quis, scelerisque ligula. Donec vel consectetur nulla. Quisque mollis odio arcu, in laoreet ipsum auctor id.
+
+Sed volutpat vel justo in dignissim. Nulla facilisi. Sed sed maximus tortor, ut gravida elit. Curabitur a justo sed ante tempor tempor. Donec accumsan viverra lectus quis auctor. Donec lobortis in urna vel hendrerit. Fusce tincidunt, nibh vitae ornare lacinia, risus massa porta sapien, vel dapibus velit lorem placerat ante. Morbi eget congue massa. Donec odio elit, elementum et ligula eget, pharetra blandit nunc. Duis eu lorem ut leo condimentum aliquet et in neque. Sed dictum purus lacinia libero ornare tincidunt. Ut pretium condimentum arcu eu mollis. Sed interdum mi risus, quis vestibulum mauris aliquet eget. Pellentesque id nulla volutpat risus gravida placerat vitae sed dui. Donec sed mi aliquet, vestibulum mi ut, porttitor enim. In vitae cursus lectus.
+
+Aliquam dignissim gravida tortor sed pretium. Etiam diam eros, ultricies vitae pharetra in, hendrerit sit amet arcu. Cras eget tincidunt elit, vitae maximus risus. Cras scelerisque augue eu nunc egestas mattis. Nam dui tortor, luctus id mauris id, gravida lobortis erat. Phasellus non felis est. Nulla facilisi. Proin odio ligula, posuere sed euismod eget, lobortis sit amet lorem. Pellentesque mollis nunc turpis. Sed malesuada elementum libero tempor venenatis. Duis a tellus convallis, luctus felis ut, molestie purus. Etiam sagittis volutpat massa a mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+
+Integer porta bibendum tempus. Donec laoreet ligula in purus sollicitudin mollis. Cras venenatis ex id nulla facilisis sagittis. Curabitur semper ut tortor vitae aliquam. Integer sed est est. Aliquam erat volutpat. Phasellus tellus augue, dictum ac metus a, tempor bibendum arcu. Donec semper, sapien ut malesuada porttitor, velit dui mollis metus, sit amet tempus enim enim ut nisl. Quisque pharetra ultricies leo, vitae pellentesque dui vestibulum et. Vivamus vulputate venenatis tellus eget vestibulum.
+
+Vestibulum elementum turpis libero, eu rhoncus dui facilisis sed. Donec eget tincidunt ex. Maecenas lacinia magna vel odio porta, eget volutpat purus imperdiet. Nunc interdum augue id ornare malesuada. Nulla facilisi. Nunc sit amet lorem vel magna finibus ultrices sed a metus. Ut quis dapibus eros. Phasellus venenatis nunc quis nunc mollis, eget sodales dui finibus. Vivamus id accumsan augue. Duis feugiat, sapien vitae finibus bibendum, ex libero viverra felis, tristique suscipit eros sapien eget urna."
+scroll_active = false
+horizontal_alignment = 3
+
+[node name="Button" type="Button" parent="Panel" unique_id=2014192043]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -106.0
+offset_top = -39.0
+offset_right = -56.0
+offset_bottom = -8.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_rkud8")
+theme_override_font_sizes/font_size = 10
+text = "Close"
+flat = true
+
+[connection signal="button_up" from="Panel/Button" to="." method="dismiss"]

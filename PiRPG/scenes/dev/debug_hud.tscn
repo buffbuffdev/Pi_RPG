@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://bgqb3yiarx0wk"]
+
+[ext_resource type="Script" uid="uid://bjntmolrruotn" path="res://scripts/ui/debug.gd" id="1_53nqi"]
+[ext_resource type="Script" uid="uid://qoye4188edne" path="res://scripts/ui/fps_label.gd" id="2_lva1o"]
+[ext_resource type="Script" uid="uid://bbog75f5bmlds" path="res://scripts/ui/v_sync_label.gd" id="3_6nbay"]
+
+[node name="HUD" type="CanvasLayer" unique_id=1663725550]
+visible = false
+
+[node name="DebugView" type="Control" parent="." unique_id=1435676377]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_53nqi")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DebugView" unique_id=2055042141]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 113.0
+offset_bottom = 95.0
+
+[node name="FPSLabel" type="Label" parent="DebugView/VBoxContainer" unique_id=426841643]
+layout_mode = 2
+script = ExtResource("2_lva1o")
+
+[node name="VSyncLabel" type="Label" parent="DebugView/VBoxContainer" unique_id=1584966684]
+layout_mode = 2
+script = ExtResource("3_6nbay")
+
+[node name="HideDebugButton" type="Button" parent="DebugView" unique_id=797897795]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -51.5
+offset_right = 51.5
+offset_bottom = 31.0
+grow_horizontal = 2
+text = "Hide DEBUG"
+
+[connection signal="pressed" from="DebugView/HideDebugButton" to="DebugView" method="_on_hide_debug_button_pressed"]

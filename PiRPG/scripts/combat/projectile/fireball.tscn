@@ -1,6 +1,6 @@
-[gd_scene load_steps=11 format=3 uid="uid://da2v38swbm80w"]
+[gd_scene format=3 uid="uid://da2v38swbm80w"]
 
-[ext_resource type="Texture2D" uid="uid://cmpclur2oltg6" path="res://characters/player/projectiles/fireball/fireball_spritesheet.png" id="1_d5kd7"]
+[ext_resource type="Texture2D" uid="uid://cmpclur2oltg6" path="res://assets/characters/projectiles/fireball/fireball_spritesheet.png" id="1_d5kd7"]
 [ext_resource type="Script" uid="uid://e6ai0r2kr2f1" path="res://scripts/combat/projectile/fireball.gd" id="1_q3o1l"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q3o1l"]

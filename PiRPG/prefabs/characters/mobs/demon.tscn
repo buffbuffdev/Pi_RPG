@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://dtedkwemqij3i"]
+[gd_scene format=3 uid="uid://dtedkwemqij3i"]
 
 [ext_resource type="Script" uid="uid://cfng4jur507cq" path="res://scripts/enemies/EnemyBase.gd" id="1_elew5"]
-[ext_resource type="SpriteFrames" uid="uid://yn2e6ga1wbqc" path="res://resources/sprite_frames/demon.tres" id="2_2fmmo"]
+[ext_resource type="SpriteFrames" uid="uid://yn2e6ga1wbqc" path="res://resources/sprite_frames/mobs/demon.tres" id="2_2fmmo"]
 [ext_resource type="PackedScene" uid="uid://b04pvkwsly5ob" path="res://prefabs/components/health_component.tscn" id="3_x4j8p"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d0s11"]

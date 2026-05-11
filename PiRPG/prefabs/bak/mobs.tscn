@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dmbo34v08ha2n"]
+
+[ext_resource type="PackedScene" uid="uid://bjrxnrue54uov" path="res://prefabs/characters/mobs/harpy.tscn" id="1_t0ht7"]
+[ext_resource type="PackedScene" uid="uid://b0lu3618hxdxe" path="res://prefabs/characters/mobs/snail.tscn" id="2_cjhn1"]
+
+[node name="Mobs" type="Node2D" unique_id=1656289092]
+
+[node name="Harpy" parent="." unique_id=1869417418 instance=ExtResource("1_t0ht7")]
+position = Vector2(429, 159)
+
+[node name="Harpy2" parent="." unique_id=2100671918 instance=ExtResource("1_t0ht7")]
+position = Vector2(77, 296)
+
+[node name="Snail" parent="." unique_id=178989306 instance=ExtResource("2_cjhn1")]
+position = Vector2(204, 190)

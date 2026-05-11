@@ -1,0 +1,36 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://ce5c0phbtxw2x"
+path="res://.godot/imported/Commodore Rounded v1.2.ttf-8bcca0af413c71d6b89a7b4cf3bf605a.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/Commodore Rounded v1.2.ttf"
+dest_files=["res://.godot/imported/Commodore Rounded v1.2.ttf-8bcca0af413c71d6b89a7b4cf3bf605a.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+disable_embedded_bitmaps=true
+multichannel_signed_distance_field=true
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+modulate_color_glyphs=false
+hinting=0
+subpixel_positioning=4
+keep_rounding_remainders=true
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}
